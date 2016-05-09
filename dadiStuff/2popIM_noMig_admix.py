@@ -132,7 +132,7 @@ if myrank == 0:
 	theta0 = dadi.Inference.optimal_sfs_scaling(model, data)
 	print 'with u = 5.49e-9'
 	L = 19102507 + 14258355 + 17945602 + 19296650
-	Nref= theta0 / 5.49e-9 / L / 2
+	Nref= theta0 / 5.49e-9 / L / 4
 	
 
 	print 'Nref:',Nref
